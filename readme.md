@@ -47,7 +47,8 @@ createServer()
    the `content-disposition` header corresponds to the hex-encoded path that you
    entered in the step above.
 
-> [!NOTE] eszip2go sets a `cache-control` header in every circumstance, but the
+> [!NOTE]\
+> eszip2go sets a `cache-control` header in every circumstance, but the
 > `max-age` differs depending on whether an error occurred or not. If everything
 > went ok, it is set to 7 days, otherwise it is set to 30 minutes to prevent
 > abuse.
