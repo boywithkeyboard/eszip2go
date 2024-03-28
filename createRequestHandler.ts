@@ -1,4 +1,4 @@
-import { encodeHex } from 'https://deno.land/std@0.220.1/encoding/hex.ts'
+import { encodeHex } from 'https://deno.land/std@0.221.0/encoding/hex.ts'
 import * as eszip from 'https://deno.land/x/eszip@v0.64.2/mod.ts'
 import { convertUrl } from './convertUrl.ts'
 import { ServerOptions } from './createServer.ts'
