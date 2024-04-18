@@ -1,5 +1,5 @@
-import { encodeHex } from 'https://deno.land/std@0.221.0/encoding/hex.ts'
-import * as eszip from 'https://deno.land/x/eszip@v0.64.2/mod.ts'
+import { encodeHex } from 'https://deno.land/std@0.223.0/encoding/hex.ts'
+import * as eszip from 'https://deno.land/x/eszip@v0.67.0/mod.ts'
 import { convertUrl } from './convertUrl.ts'
 import { ServerOptions } from './createServer.ts'
 import { respondWithError } from './respondWithError.ts'
